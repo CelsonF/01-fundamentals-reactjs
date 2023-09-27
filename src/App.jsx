@@ -1,9 +1,10 @@
-function App() {
+import { Post } from "./components/Post"
+
+
+export function App() {
   return (
     <>
-      <h1>React 18 Alpha Demo</h1>
+      <Post/>
     </>
   )
 }
-
-export default App
