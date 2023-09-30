@@ -1,5 +1,14 @@
 .header { 
-    background-color: #333;
-    height: 4rem;
-    color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem 0;
+    background-color: var(--gray-800);
+    font-size: 1.6rem;
 }
+
+.header img { 
+    width: 3rem;
+    margin-right: 0.5rem;
+    height: 100%;
+} 
