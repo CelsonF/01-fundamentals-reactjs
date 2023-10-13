@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { format, formatDistanceToNow, set } from 'date-fns';
+import { format, formatDistanceToNow } from 'date-fns';
 import { ptBR } from 'date-fns/locale';
 import { Avatar } from './Avatar';
 import { Comment } from './Comment';
@@ -9,7 +9,7 @@ import styles from './Post.module.css';
 
 export function Post({author, publishedAt,content}) {
 
-    const isNewCommentEmpty = newCommentText.length === 0;
+   
     
     const [comments,setComments]  = useState([
         'Post muito bacana, hein?!'
@@ -50,6 +50,7 @@ export function Post({author, publishedAt,content}) {
         setComments(commentsWithoutDeletedOne)
     }
 
+    const isNewCommentEmpty = newCommentText.length === 0;
 
     return (
        <article className={styles.post}>
