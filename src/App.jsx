@@ -28,7 +28,7 @@ const posts = [
         content: "https://jane.design/doctorcare",
       }
     ],
-    publishedAt: new Date("2021-10-04T21:29:00"),
+    publishedAt: new Date("2023-10-08T21:29:00"),
   },
   {
     id: 2,
@@ -51,7 +51,7 @@ const posts = [
         content: "https://jane.design/doctorcare",
       }
     ],
-    publishedAt: new Date("2021-10-04T21:29:00"),
+    publishedAt: new Date("2023-10-11T21:29:00"),
   },
 ]
 
